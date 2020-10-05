@@ -1,11 +1,5 @@
 const chalk = require('chalk')
-const figlet = require('figlet')
 
-console.log(chalk.yellow(figlet.textSync('noblox.js', {
-  font: 'Big',
-  horizontalLayout: 'default',
-  verticalLayout: 'default'
-})))
 
 console.log(`
 ${chalk.underline('Thank you for installing noblox.js.')}
